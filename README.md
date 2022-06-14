@@ -11,3 +11,10 @@ saintjb microservices repository
 ## Выполнен запуск образов в одной сети
 
 # В рамках 4 дз по gitlab были выполнены основные задания, кроме заданий со *
+
+#  В рамках 4 дз по мониторингу были выполнены основные задания, кроме заданий со *
+## Ссылки на образы
+Prometheus: https://hub.docker.com/repository/docker/saintjb/prometheus
+Post: https://hub.docker.com/repository/docker/saintjb/post
+UI: https://hub.docker.com/repository/docker/saintjb/ui
+Comment: https://hub.docker.com/repository/docker/saintjb/comment
