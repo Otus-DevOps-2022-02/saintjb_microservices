@@ -12,9 +12,12 @@ saintjb microservices repository
 
 # В рамках 4 дз по gitlab были выполнены основные задания, кроме заданий со *
 
-#  В рамках 4 дз по мониторингу были выполнены основные задания, кроме заданий со *
+#  В рамках 5 дз по мониторингу были выполнены основные задания, кроме заданий со *
 ## Ссылки на образы
 Prometheus: https://hub.docker.com/repository/docker/saintjb/prometheus
 Post: https://hub.docker.com/repository/docker/saintjb/post
 UI: https://hub.docker.com/repository/docker/saintjb/ui
 Comment: https://hub.docker.com/repository/docker/saintjb/comment
+
+# В рамках дз по логированию были выполнены основные задания, кроме заданий со *
+## Было настроено логирование работы микросервисов при помощи EFK, Zipkin
