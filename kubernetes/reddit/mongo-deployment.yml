@@ -26,9 +26,15 @@ spec:
       - image: mongo:3.2
         name: mongo
         volumeMounts:
-        - name: mongo-persistent-storage
+        - name: mongo-gce-pd-storage
           mountPath: /data/db
       volumes:
-      - name: mongo-persistent-storage
+      - name: mongo-gce-pd-storage
         persistentVolumeClaim:
-          claimName:  mongo-pvc
+          claimName: mongo-pvc-dynamic
+#        - name: mongo-persistent-storage
+#          mountPath: /data/db
+#     volumes:
+#      - name: mongo-persistent-storage
+#        persistentVolumeClaim:
+#         claimName:  mongo-pvc
